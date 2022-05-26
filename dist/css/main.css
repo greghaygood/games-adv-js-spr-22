@@ -165,11 +165,54 @@ body {
 }
 
 /* 2. Content ================================= */
+#game {
+	width: 100%;
+	background: white;
+	border: 3px solid black;
+	padding: 1rem;
+}
+
+#scoreboard {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+}
+#scoreboard .player {
+	width: 30%;
+	border: 1px solid #444;
+	padding: 2rem;
+	margin: 0 2rem;
+	text-align: center;
+}
+#scoreboard .player .name {
+	font-weight: bold;
+	font-size: 20px;
+}
+#scoreboard .player .score {
+	font-size: 45px;
+}
+
+#gameboard .moves {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#gameboard .moves .move {
+	border: 1px solid #999;
+	padding: 4rem;
+	width: 30%;
+	text-align: center;
+}
+#gameboard #round-result {
+	margin: 2rem 0;
+	font-size: 30px;
+	text-align: center;
+}
+
 .floating-box {
 	position: relative;
 	font-family: sans-serif;
 	width: 90%;
-	max-width: 500px;
 	margin: 140px auto;
 	padding: 30px 20px 30px 30px;
 }
